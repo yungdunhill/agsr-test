@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto:wght@100;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background-color: #333;
+    color: white;
 }
+
+h2{
+    font-size: 30px;
+}
+
+.form{
+    padding-top: 20%;
+    padding-left: 40%;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-gap: 1em;
+}
+
+input{
+    height: 40px;
+    width: 250px;
+    background: dimgrey;
+    color: #fff;
+    outline: none;
+    border-radius: 5px 5px 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.checkbox{
+    margin-top: 10px;
+}
+
+button{
+    margin-top: 10px;
+    height: 40px;
+    width: 253px;
+    background: #3e8fa0;
+    border-radius: 5px 5px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font: inherit;
+    text-align: center;
+    transition: transform 500ms ease;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+.info{
+    display: grid;
+    grid-gap: 1em;
+    float: right;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.screenInfo{
+    float: left;
+    background: #3e8fa0;
+    display: block;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 5px 5px;
+    box-shadow: 5px 5px 5px black;
+    padding-top: 50px;
+
+}
+
